@@ -18,14 +18,12 @@
             #quote {
                 color: magenta;
                 font-style: italic;
-                border: solid lightskyblue 2px;
             }
 
             #bargraph {
                 border: 1px solid gray;
                 padding-left: 10px;
                 padding-bottom: 10px;
-                width: 25%;
             }
             .bar_label {
                 color: red;
@@ -69,16 +67,14 @@
         <h2>My intro</h2>
         <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
         <!-- Tags to use: <p>, <strong>, <i> -->
-        <p>My name is <strong>Madeleine</strong>. I am from <i>Pennsylvania</i>. I like to paint and go to the gym. I am studying Magazine Journalism. My community is my close group of friends here at Syracuse.</p>
+        <p>My name is <strong>Madeleine</strong>. I am from <i>Pennsylvania</i>. I like to paint and go to the gym. I am studying Magazine Journalism. My community here at Syracuse is my close group of friends.</p>
 
         <h2>My handles</h2>
         <!-- Include: at least two handles for your social media accounts -->
         <!-- Tags to use: <p>, <a> -->
-        <p>
-            <a
-            href "https://www.instagram.com/madeleine.oliveros/">Instagram</a>
-            <a
-            href "https://www.linkedin.com/in/madeleine-oliveros/">LinkedIn</a> 
+        
+            <p><a href="https://www.instagram.com/madeleine.oliveros/" target="_blank">Instagram </a></p>
+            <p><a href="https://www.linkedin.com/in/madeleine-oliveros/" target="_blank">LinkedIn</a> 
         </p>
     
         <h2> ~ Challenge: Why is my text maroon? ~</h2>
@@ -90,7 +86,7 @@
         <!-- Include: "large_wink.png" as an image -->
         <!-- Tags to use: <img> -->
         <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
-        <img src="large_wink.png" height="200px" width="300px">
+        <img src="large_wink.png" alt="An image of Kathryn Hahn winking sarcastically" height="200px" width="300px">
 
     
         <h2>Why I'm a great student</h2>
@@ -105,16 +101,16 @@
         <!-- Include: an ordered list -->
         <!-- Tags to use: <ol>, <li>, <a> -->
             <ol>
-                <li>Carroll Baker</li>
-                <li>Mark Polonia</li>
-                <li>Tim Kazurinsky</li>
+                <li><a href="https://en.wikipedia.org/wiki/Carroll_Baker" target="_blank">Carroll Baker</a></li>
+                <li><a href="https://www.imdb.com/name/nm0689789/" target="_blank">Mark Polonia</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Tim_Kazurinsky" target="_blank">Tim Kazurinsky</a></li>
             </ol>
 
 
         <h2> ~ Challenge: Read my poetry ~</h2>
         <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
         <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
-        <p>Roses are red,<br> Violets are blue,<br> College is hard,<br>I want to sleep.</p>
+        <p>Roses are red,<br>Violets are blue,<br>College is hard,<br>I want to sleep.</p>
     
 
         <h2>This is one of my favorite quotes</h2>
@@ -122,19 +118,19 @@
         <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
         <h3>A Separate Peace</h3>
 
-         <ul id=quote
-              <p>“I felt that I was not, never had been and never would be a living part of this overpoweringly solid and deeply meaningful world around me.”</p>
-         </ul>
+         
+                <p id="quote"> “I felt that I was not, never had been and never would be a living part of this overpoweringly solid and deeply meaningful world around me.”</p>
+        
 
 
         <h2>These are more of my favorite books</h2>
         <!-- Include: an unordered list of at least three books, list items should have a border -->
         <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
        
-        <ul class="book">
-                <li>A Separate Peace</li>
-                <li>And Then There were None</li>
-                <li>The Catcher in the Rye</li>
+        <ul> 
+                <li class="book">A Separate Peace</li>
+                <li class="book">And Then There were None</li>
+                <li class="book">The Catcher in the Rye</li>
         </ul>
         
 
@@ -149,12 +145,12 @@
         <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
 
         <div id="bargraph">
-            <h4>Length of bars in order</h4>
-            <p class="bar_label">Longest</p>
+            <h4>Time I spend doing homework on weekends</h4>
+            <p class="bar_label">Sunday</p>
             <div id="longest"></div>
-            <p class="bar_label">Longer</p>
+            <p class="bar_label">Saturday</p>
             <div id="longer"></div>
-            <p class="bar_label">Long</p>
+            <p class="bar_label">Friday</p>
             <div id="long"></div>
         </div>
      
